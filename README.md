@@ -86,7 +86,7 @@ The most important thing is to use MenuItem to create instance of ViewController
     
     @end
 
-Now, the menu is configured. AppDelegate need to have a IIViewDeckController property. This IIViewController needs to set the left viewController to the our menu (YourMenuViewController) and set the center viewController to our splash or whatever your main content.
+Now, the menu is configured. AppDelegate need to have a IIViewDeckController property. This IIViewController needs to set the left viewController to the our menu (YourMenuViewController) and set the center viewController to our splash or whatever your main content. Once done, the final step is to assign that IIViewController to the self.window.rootViewController.
 
     // AppDelegate.m
     #import "SplashViewController.h"
